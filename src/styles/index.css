@@ -1,0 +1,277 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('/assets/fonts/OpenSans-Regular/OpenSans-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/OpenSans-Regular/OpenSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/OpenSans-Regular/OpenSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/OpenSans-Regular/OpenSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/assets/fonts/OpenSans-Regular/OpenSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/OpenSans-Regular/OpenSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Heebo-Regular';
+  src: url('/assets/fonts/Heebo-Regular/Heebo-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Heebo-Regular/Heebo-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/Heebo-Regular/Heebo-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/fonts/Heebo-Regular/Heebo-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/assets/fonts/Heebo-Regular/Heebo-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/Heebo-Regular/Heebo-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 10px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* TYPOGRAPHY */
+h1 {
+  font-family: 'Heebo-Regular';
+  margin: 0;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 0.3px;
+  line-height: 38px;
+}
+
+h1.dark {
+  color: #060508;
+}
+
+* {
+  outline: none !important;
+}
+
+/* WIDGET STYLES */
+
+.widget-contaier {
+  background: url('/assets/images/sayagata-400px.png');
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget-contaier--center {
+  max-width: 1140px;
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.widget-left-contaier {
+  width: 50%;
+}
+
+.widget-form-contaier {
+  padding: 40px 30px;
+}
+
+.widget-contaier--center {
+  width: 65%;
+}
+
+.widget-aside-right-container {
+  width: 50%;
+}
+
+.widget-aside-right-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.widget-form--input {
+  margin-top: 24px;
+}
+
+/* CONTROLS STYLES */
+
+
+/* INPUT */
+.input-label {
+  width: 100%;
+  color: #060508;
+  font-family: "OpenSans-Regular";
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.widget-input {
+  display: block;
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  padding: 15px 15px 15px 5px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+  color: #060508;
+  font-family: "OpenSans-Regular";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+.widget-input:focus {
+  background-color: #F7F7F7;
+  box-shadow: inset 0 -1.5px 0 0 #060508;
+}
+
+.widget-input:hover {
+  background-color: #F7F7F7;
+  box-shadow: inset 0 -1.5px 0 0 #060508;
+}
+
+/* BUTTON */
+.button {
+  font-family: 'Heebo-Regular';
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.3px;
+  line-height: 20px;	text-align: center;
+  transition: opacity .2s;
+}
+
+button:hover {
+  opacity: .8;
+}
+
+.button.big {
+  padding: 15px 12px 13px;
+}
+
+.button.dark {
+  background-color: #060508;
+  color: #FFFFFF;
+}
+
+.button.wide {
+  width: 100%;
+}
+
+
+/* DRAG AND DROP */
+.dropzone {
+  display: flex;
+  margin: 40px 0;
+  padding: 22.5px 0;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px dashed #E3E3E3;
+  background-color: #F7F7F7;
+}
+
+.dropzone p {
+  margin: 4px 0;
+}
+
+.dropzone img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.dropzone-label {
+  color: #060508;
+  font-family: "OpenSans-Regular";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.dropzone-label.light {
+  font-weight: normal;
+}
+
+.dropzone-button {
+  background: transparent;
+  border: none;
+  color: #0096E6;
+  font-family: "OpenSans-Regular";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+  text-align: center;
+  transition: color 0.2s;
+}
+
+.dropzone-button:hover {
+  color: #ccbe0b;
+}
+
+.files-list {
+  margin: 40px 0;
+  max-height: 112px;
+  overflow: auto;
+}
+
+.files-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.files-list ul li {
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+
+
+.files-list ul li .icon-image-type {
+  width: 26px;
+  height: 26px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.files-list ul li .icon-check {
+  margin-left: auto;
+  width: 24px;
+  height: 24px;
+  padding-right: 5px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.files-list ul li span {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  color: #060508;
+  font-family: "OpenSans-Regular";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 20px;
+}
+
+/* HELPERS CLASS */
+
+.white {
+  background: white;
+}
+
+.black {
+  background: black;
+}
+
+.text-center {
+  text-align: center;
+}

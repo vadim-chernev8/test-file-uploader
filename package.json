@@ -1,0 +1,38 @@
+{
+  "name": "test-d3-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-dropzone": "^10.1.9",
+    "react-scripts": "^3.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "connected-react-router": "^6.0.0",
+    "d3": "^5.7.0",
+    "history": "^4.7.2",
+    "qs": "^6.6.0",
+    "rambda": "^3.2.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.1.1",
+    "reselect": "^4.0.0"
+  }
+}
