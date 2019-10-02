@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-file-uploader/static/css/main.12b7ef19.chunk.css",
+    "main.css": "/test-file-uploader/static/css/main.0e5b531a.chunk.css",
     "main.js": "/test-file-uploader/static/js/main.bc99db27.chunk.js",
     "main.js.map": "/test-file-uploader/static/js/main.bc99db27.chunk.js.map",
     "runtime-main.js": "/test-file-uploader/static/js/runtime-main.1f3cd243.js",
@@ -8,8 +8,8 @@
     "static/js/2.0c470783.chunk.js": "/test-file-uploader/static/js/2.0c470783.chunk.js",
     "static/js/2.0c470783.chunk.js.map": "/test-file-uploader/static/js/2.0c470783.chunk.js.map",
     "index.html": "/test-file-uploader/index.html",
-    "precache-manifest.165f1b0e0441ef0b8ac9b4bde5e50795.js": "/test-file-uploader/precache-manifest.165f1b0e0441ef0b8ac9b4bde5e50795.js",
+    "precache-manifest.1d67ec9dca5e280e3ad6011aab4d1dae.js": "/test-file-uploader/precache-manifest.1d67ec9dca5e280e3ad6011aab4d1dae.js",
     "service-worker.js": "/test-file-uploader/service-worker.js",
-    "static/css/main.12b7ef19.chunk.css.map": "/test-file-uploader/static/css/main.12b7ef19.chunk.css.map"
+    "static/css/main.0e5b531a.chunk.css.map": "/test-file-uploader/static/css/main.0e5b531a.chunk.css.map"
   }
 }
