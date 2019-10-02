@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vadim-chernev8.github.io/test-file-uploader/static/css/main.12b7ef19.chunk.css",
-    "main.js": "/vadim-chernev8.github.io/test-file-uploader/static/js/main.3614a7da.chunk.js",
-    "main.js.map": "/vadim-chernev8.github.io/test-file-uploader/static/js/main.3614a7da.chunk.js.map",
-    "runtime-main.js": "/vadim-chernev8.github.io/test-file-uploader/static/js/runtime-main.50b95ef5.js",
-    "runtime-main.js.map": "/vadim-chernev8.github.io/test-file-uploader/static/js/runtime-main.50b95ef5.js.map",
-    "static/js/2.bb351494.chunk.js": "/vadim-chernev8.github.io/test-file-uploader/static/js/2.bb351494.chunk.js",
-    "static/js/2.bb351494.chunk.js.map": "/vadim-chernev8.github.io/test-file-uploader/static/js/2.bb351494.chunk.js.map",
-    "index.html": "/vadim-chernev8.github.io/test-file-uploader/index.html",
-    "precache-manifest.8e8140b92b7c6f7e848e00b9858ec206.js": "/vadim-chernev8.github.io/test-file-uploader/precache-manifest.8e8140b92b7c6f7e848e00b9858ec206.js",
-    "service-worker.js": "/vadim-chernev8.github.io/test-file-uploader/service-worker.js",
-    "static/css/main.12b7ef19.chunk.css.map": "/vadim-chernev8.github.io/test-file-uploader/static/css/main.12b7ef19.chunk.css.map"
+    "main.css": "/test-file-uploader/static/css/main.12b7ef19.chunk.css",
+    "main.js": "/test-file-uploader/static/js/main.787aef10.chunk.js",
+    "main.js.map": "/test-file-uploader/static/js/main.787aef10.chunk.js.map",
+    "runtime-main.js": "/test-file-uploader/static/js/runtime-main.1f3cd243.js",
+    "runtime-main.js.map": "/test-file-uploader/static/js/runtime-main.1f3cd243.js.map",
+    "static/js/2.bb351494.chunk.js": "/test-file-uploader/static/js/2.bb351494.chunk.js",
+    "static/js/2.bb351494.chunk.js.map": "/test-file-uploader/static/js/2.bb351494.chunk.js.map",
+    "index.html": "/test-file-uploader/index.html",
+    "precache-manifest.6064a75a311ec26731e86e6f7a8b799f.js": "/test-file-uploader/precache-manifest.6064a75a311ec26731e86e6f7a8b799f.js",
+    "service-worker.js": "/test-file-uploader/service-worker.js",
+    "static/css/main.12b7ef19.chunk.css.map": "/test-file-uploader/static/css/main.12b7ef19.chunk.css.map"
   }
 }
