@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vadim-chernev8/test-file-uploader/static/css/main.12b7ef19.chunk.css",
+    "main.js": "/vadim-chernev8/test-file-uploader/static/js/main.fcbd79c2.chunk.js",
+    "main.js.map": "/vadim-chernev8/test-file-uploader/static/js/main.fcbd79c2.chunk.js.map",
+    "runtime-main.js": "/vadim-chernev8/test-file-uploader/static/js/runtime-main.d68dee7b.js",
+    "runtime-main.js.map": "/vadim-chernev8/test-file-uploader/static/js/runtime-main.d68dee7b.js.map",
+    "static/js/2.bb351494.chunk.js": "/vadim-chernev8/test-file-uploader/static/js/2.bb351494.chunk.js",
+    "static/js/2.bb351494.chunk.js.map": "/vadim-chernev8/test-file-uploader/static/js/2.bb351494.chunk.js.map",
+    "index.html": "/vadim-chernev8/test-file-uploader/index.html",
+    "precache-manifest.2943fc7ebdbcdb5362385e7a5f56ef0a.js": "/vadim-chernev8/test-file-uploader/precache-manifest.2943fc7ebdbcdb5362385e7a5f56ef0a.js",
+    "service-worker.js": "/vadim-chernev8/test-file-uploader/service-worker.js",
+    "static/css/main.12b7ef19.chunk.css.map": "/vadim-chernev8/test-file-uploader/static/css/main.12b7ef19.chunk.css.map"
+  }
+}
